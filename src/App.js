@@ -44,7 +44,7 @@ function App() {
       {/* Main Container */}
       <div className="container my-3">
         <Routes>
-          <Route path="/Utility" element={<Form mode={mode} />} />
+          <Route path="/" element={<Form mode={mode} />} />
           <Route path="/about" element={<About mode={mode} />} />
           <Route path="/json" element={<Json mode={mode} />} />
         </Routes>
