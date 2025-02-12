@@ -1,0 +1,31 @@
+.tic-tac-toe {
+    text-align: center;
+    background-color: #73769e;
+    padding: 20px;
+  }
+  
+  .game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    background-color: #ffffc7;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  
+  .reset-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 10px;
+  }
+  
